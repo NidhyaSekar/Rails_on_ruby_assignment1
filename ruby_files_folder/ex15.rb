@@ -1,7 +1,7 @@
 puts "READING FILES"
 filename = ARGV.first
 txt = open (filename)
-puts "here is your file #{filename}"
+puts "Here is your file #{filename}"
 puts txt.read 
 print "Type the filename again: "
 file_again = $stdin.gets.chomp

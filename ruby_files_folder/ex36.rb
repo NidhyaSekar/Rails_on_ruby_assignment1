@@ -38,7 +38,7 @@ def west
       puts "Yahoo... you've entered the jungle party."
       puts "Have fun,until animals finds you!!!"
      else
-    puts "pick from the given option."
+       puts "pick from the given option."
      end
  
 end

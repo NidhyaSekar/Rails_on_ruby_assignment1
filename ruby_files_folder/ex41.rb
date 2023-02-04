@@ -20,9 +20,9 @@ PHRASES = {
 
 PHRASE_FIRST = ARGV[0] == "english"
 
- open(WORD_URL) {|f|
+ open(WORD_URL) |f|
   f.each_line {|word| WORDS.push(word.chomp)}
-  }
+  
 
 
 def craft_name(ran_words, snippet, pattern, caps = false)
